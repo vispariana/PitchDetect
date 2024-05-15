@@ -23,7 +23,6 @@ var sourceNode = null;
 var analyser = null;
 
 var mediaStreamSource = null;
-var detectorElem, pitchElem, noteElem, detuneElem, detuneAmount;
 
 function startPitchDetect() {
   // grab an audio context
